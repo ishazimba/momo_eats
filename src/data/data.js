@@ -10,36 +10,44 @@ import paneerMomo from "../assets/paneermomo.png";
 export const data = [
   {
     id: 1,
-    name: "Steamed Momo",
+    name: "Vegetarian Steamed Momo",
     description: "Steamed filled dumpling served with a sauce known as achar ",
-    category: "momo",
-    image: { steamMomo },
+    category: "vegetarian",
+    image: steamMomo,
+    price: 12,
+  },
+  {
+    id: 1,
+    name: "Chicken Steamed Momo",
+    description: "Steamed filled dumpling served with a sauce known as achar ",
+    category: "chicken",
+    image: steamMomo,
     price: 6.49,
   },
   {
     id: 2,
-    name: "Chilly Momo",
+    name: "Vegeterian Chilly Momo",
     description:
       "Nepalese styled dumplings cooked in spicy tomato sauce with onion and curry leaves.",
-    category: "momo",
-    image: { chillyMomo },
+    category: "vegetarian",
+    image: chillyMomo,
     price: 8,
   },
   {
     id: 3,
-    name: "Jhol Momo",
+    name: " Vegetarian Jhol Momo",
     description:
       "Traditional nepali cuisine dumpling recipe served with spicy tomato-based soup with peanuts or soybeans ",
-    category: "momo",
-    image: { jholMomo },
+    category: "vegetarian",
+    image: jholMomo,
     price: 7.89,
   },
   {
     id: 4,
-    name: "Open Momo",
+    name: "Open Momo with vegetables fillings",
     description: "Open for You To Pour Sauce",
-    category: "momo",
-    image: { openMomo },
+    category: "vegeterian",
+    image: openMomo,
     price: 6,
   },
   {
@@ -47,16 +55,16 @@ export const data = [
     name: "Green Momo",
     description:
       "Spinach blended into the dough for a flavorful, green coloured momo",
-    category: "momo",
-    image: { greenMomo },
+    category: "vegeterian",
+    image: greenMomo,
     price: 7.89,
   },
   {
     id: 6,
     name: "Buckwheat Momo",
     description: "Healthy, light, and delicious momo made with buckwheat",
-    category: "momo",
-    image: { buckwheatMomo },
+    category: "vegeterian",
+    image: buckwheatMomo,
     price: 8.89,
   },
   {
@@ -65,7 +73,7 @@ export const data = [
     description:
       "Momo marinated and cooked in a tandoor oven, resulting in a smoky and flavorful twist on the classic dish",
     category: "momo",
-    image: { tandooriMomo },
+    image: tandooriMomo,
     price: 6,
   },
   {
@@ -74,7 +82,7 @@ export const data = [
     description:
       "Pan-fried on one side, creating a crispy bottom while the top remains soft",
     category: "momo",
-    image: { kotheMomo },
+    image: kotheMomo,
     price: 6,
   },
   {
@@ -82,8 +90,8 @@ export const data = [
     name: "Paneer Momo",
     description:
       "Filled with cottage cheese (paneer) and spices, offering a vegetarian alternative to the traditional meat-filled dumplings",
-    category: "momo",
-    image: { paneerMomo },
+    category: "vegeterian",
+    image: paneerMomo,
     price: 6,
   },
 ];

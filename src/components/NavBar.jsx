@@ -26,7 +26,7 @@ const NavBar = () => {
           Momo <span className="font-bold text-green-600">Eats</span>
         </h1>
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
-          <p className="bg-green-700 text-white rounded-full p-2.5">
+          <p className="bg-green-600 text-white rounded-full p-2.5">
             {" "}
             Delivery
           </p>
@@ -46,7 +46,7 @@ const NavBar = () => {
       </div>
       {/*cart button*/}
 
-      <button className="bg-green-700 text-white hidden md:flex items-center py-2 rounded-full border-none">
+      <button className="bg-green-600 text-white hidden md:flex items-center py-2 rounded-full border-none">
         <BsFillCartFill size={20} className="mr-2" /> Cart
       </button>
 

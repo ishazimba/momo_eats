@@ -5,6 +5,8 @@ import Hero from "./components/Hero";
 import HeadlineCard from "./components/HeadlineCard";
 import Momo from "./components/Momo";
 
+import Category from "./components/category";
+
 function App() {
   return (
     <>
@@ -12,6 +14,7 @@ function App() {
       <Hero />
       <HeadlineCard />
       <Momo />
+      <Category />
     </>
   );
 }
